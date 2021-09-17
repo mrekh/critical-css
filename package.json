@@ -1,0 +1,14 @@
+{
+  "name": "css-coverage",
+  "version": "1.0.0",
+  "description": "Extracting critical CSS of different pages with ability to emulating different devices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Critical CSS"
+  ],
+  "author": "Alireza Esmikhani",
+  "license": "ISC"
+}
