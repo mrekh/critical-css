@@ -10,5 +10,10 @@
     "Critical CSS"
   ],
   "author": "Alireza Esmikhani",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "clean-css": "^5.1.5",
+    "puppeteer": "^10.2.0",
+    "xlsx": "^0.17.2"
+  }
 }
