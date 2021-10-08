@@ -17,7 +17,7 @@ for (let i = 2; ; i++) {
 
 // Selected devices for emulating
 let devices = [];
-if (inputSheet["C2"].v === true) devices.push("");
+if (inputSheet["C2"].v === 1) devices.push("");
 for (let i = 2; ; i++) {
   if (inputSheet[`D${i}`] === undefined) break;
   devices.push(inputSheet[`D${i}`].v);
