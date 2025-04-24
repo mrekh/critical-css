@@ -2,9 +2,12 @@
   "name": "css-coverage",
   "version": "1.0.0",
   "description": "Extracting critical CSS of different pages with ability to emulating different devices",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsc && node dist/app.js"
   },
   "keywords": [
     "Critical CSS"
@@ -12,8 +15,13 @@
   "author": "Alireza Esmikhani",
   "license": "ISC",
   "dependencies": {
-    "clean-css": "^5.1.5",
-    "puppeteer": "^10.2.0",
-    "xlsx": "^0.17.2"
+    "clean-css": "^5.3.3",
+    "puppeteer": "^24.7.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/clean-css": "^4.2.11",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
   }
 }
